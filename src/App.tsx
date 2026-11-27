@@ -1,7 +1,7 @@
 /* eslint-disable react/jsx-no-undef */
 import BarraLateral from './container/BarraLateral'
-import Afazeres from './container/Afazeres'
 import { Container, GlobalStyle } from './styles'
+import { NavBar } from './container/Inicio'
 
 function App() {
   return (
@@ -9,6 +9,7 @@ function App() {
       <GlobalStyle />
       <Container>
         <BarraLateral></BarraLateral>
+        <NavBar></NavBar>
       </Container>
     </div>
   )

@@ -13,30 +13,43 @@ const BarraLateral = () => {
           strokeLinecap="round"
         />
       </S.Logo>
+
       <S.MenuOpcoes>
-        <S.Icone>
-          <S.MenuOpcoes>
-            <S.Icone>
-              <S.ListaIcones>
-                <S.ItemIcone>
-                  <I.Grid />
-                </S.ItemIcone>
-                <S.ItemIcone>
-                  <I.Tarefa />
-                </S.ItemIcone>
-                <S.ItemIcone>
-                  <I.Calendario />
-                </S.ItemIcone>
-                <S.ItemIcone>
-                  <I.Estatisticas />
-                </S.ItemIcone>
-                <S.ItemIcone>
-                  <I.Trofeu />
-                </S.ItemIcone>
-              </S.ListaIcones>
-            </S.Icone>
-          </S.MenuOpcoes>
-        </S.Icone>
+        <S.MenuSuperior>
+          <S.ListaIcones>
+            <S.ItemIcone>
+              <I.Grid />
+            </S.ItemIcone>
+
+            <S.ItemIcone>
+              <I.Tarefa />
+            </S.ItemIcone>
+
+            <S.ItemIcone>
+              <I.Calendario />
+            </S.ItemIcone>
+
+            <S.ItemIcone>
+              <I.Estatisticas />
+            </S.ItemIcone>
+
+            <S.ItemIcone>
+              <I.Trofeu />
+            </S.ItemIcone>
+          </S.ListaIcones>
+        </S.MenuSuperior>
+
+        <S.MenuInferior>
+          <S.ListaIcones>
+            <S.ItemIcone>
+              <I.Configuracoes />
+            </S.ItemIcone>
+
+            <S.ItemIcone>
+              <I.Sair />
+            </S.ItemIcone>
+          </S.ListaIcones>
+        </S.MenuInferior>
       </S.MenuOpcoes>
     </S.BarraLateral>
   )
